@@ -3,9 +3,9 @@
 Projet de formation Java 17 progressif vers Spring Boot.
 
 ## 🛠️ Environnement
-- Java 17 (ARM64 — Apple M1)
+- Java 17
 - Eclipse IDE
-- Maven (à venir)
+- GitHub (EGit)
 
 ## 📅 Programme
 | Jour | Thème | Statut |
@@ -15,7 +15,9 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 3 | Méthodes, tableaux, Calculatrice CLI | ✅ |
 | Jour 4 | POO, Classes, Encapsulation, Stack/Heap | ✅ |
 | Jour 5 | Héritage, Polymorphisme, Pattern Matching | ✅ |
-| Jour 6 | Classes Abstraites & Interfaces | ✅ |
+| Jour 6 | Classes Abstraites, Interfaces, Default Methods | ✅ |
+| Jour 7 | Mini-Projet Gestion Étudiants | ✅ |
+| Jour 8 | Collections : List & Set | 🔜 |
 
 ## 📦 Structure
 ```
@@ -26,6 +28,7 @@ src/
     ├── jour3/ → IntroMethodes, IntroTableaux, Calculatrice
     ├── jour4/ → Etudiant, TestEtudiant
     ├── jour5/ → Personne, Etudiant, Professeur, TestHeritage
-    └── jour6/ → Forme, Dessinable, Cercle, Rectangle, Triangle, TestHeritage
-
+    ├── jour6/ → Forme, Dessinable, Cercle, Rectangle, Triangle
+    └── jour7/ → model/Etudiant, service/GestionEtudiantService,
+                 app/Application
 ```
