@@ -17,7 +17,8 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 5 | Héritage, Polymorphisme, Pattern Matching | ✅ |
 | Jour 6 | Classes Abstraites, Interfaces, Default Methods | ✅ |
 | Jour 7 | Mini-Projet Gestion Étudiants | ✅ |
-| Jour 8 | Collections : List & Set | 🔜 |
+| Jour 8 | Collections : List & Set | ✅ |
+| Jour 9 | Collections : Map & Queue | 🔜 |
 
 ## 📦 Structure
 ```
@@ -29,6 +30,7 @@ src/
     ├── jour4/ → Etudiant, TestEtudiant
     ├── jour5/ → Personne, Etudiant, Professeur, TestHeritage
     ├── jour6/ → Forme, Dessinable, Cercle, Rectangle, Triangle
-    └── jour7/ → model/Etudiant, service/GestionEtudiantService,
-                 app/Application
+    ├── jour7/ → model/Etudiant, service/GestionEtudiantService,
+    │            app/Application
+    └── jour8/ → ListeTaches, ExerciceSet, PerformanceList
 ```
