@@ -18,7 +18,8 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 6 | Classes Abstraites, Interfaces, Default Methods | ✅ |
 | Jour 7 | Mini-Projet Gestion Étudiants | ✅ |
 | Jour 8 | Collections : List & Set | ✅ |
-| Jour 9 | Collections : Map & Queue | 🔜 |
+| Jour 9 | Collections : Map & Queue | ✅ |
+| Jour 10 | Generics & Types Paramétrés | 🔜 |
 
 ## 📦 Structure
 ```
@@ -32,5 +33,6 @@ src/
     ├── jour6/ → Forme, Dessinable, Cercle, Rectangle, Triangle
     ├── jour7/ → model/Etudiant, service/GestionEtudiantService,
     │            app/Application
-    └── jour8/ → ListeTaches, ExerciceSet, PerformanceList
+    ├── jour8/ → ListeTaches, ExerciceSet, PerformanceList
+    └── jour9/ → Annuaire, FrequenceMots, FileImpression
 ```
