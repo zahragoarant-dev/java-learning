@@ -19,20 +19,24 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 7 | Mini-Projet Gestion Étudiants | ✅ |
 | Jour 8 | Collections : List & Set | ✅ |
 | Jour 9 | Collections : Map & Queue | ✅ |
-| Jour 10 | Generics & Types Paramétrés | 🔜 |
+| Jour 10 | Generics & Types Paramétrés | ✅ |
+| Jour 11 | Exceptions | 🔜 |
 
 ## 📦 Structure
 ```
 src/
 └── com/formation/
-    ├── jour1/ → HelloWorld, MonProfil
-    ├── jour2/ → StructuresControle, Boucles, FizzBuzz
-    ├── jour3/ → IntroMethodes, IntroTableaux, Calculatrice
-    ├── jour4/ → Etudiant, TestEtudiant
-    ├── jour5/ → Personne, Etudiant, Professeur, TestHeritage
-    ├── jour6/ → Forme, Dessinable, Cercle, Rectangle, Triangle
-    ├── jour7/ → model/Etudiant, service/GestionEtudiantService,
-    │            app/Application
-    ├── jour8/ → ListeTaches, ExerciceSet, PerformanceList
-    └── jour9/ → Annuaire, FrequenceMots, FileImpression
+    ├── jour1/  → HelloWorld, MonProfil
+    ├── jour2/  → StructuresControle, Boucles, FizzBuzz
+    ├── jour3/  → IntroMethodes, IntroTableaux, Calculatrice
+    ├── jour4/  → Etudiant, TestEtudiant
+    ├── jour5/  → Personne, Etudiant, Professeur, TestHeritage
+    ├── jour6/  → Forme, Dessinable, Cercle, Rectangle, Triangle
+    ├── jour7/  → model/Etudiant, service/GestionEtudiantService,
+    │             app/Application
+    ├── jour8/  → ListeTaches, ExerciceSet, PerformanceList
+    ├── jour9/  → Annuaire, FrequenceMots, FileImpression
+    └── jour10/ → Boite, Stack, Repository, EtudiantRepository,
+                  UtilsGenerics, TestBoite, TestStack,
+                  TestRepository, TestUtils
 ```
