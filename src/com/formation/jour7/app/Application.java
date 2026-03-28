@@ -3,6 +3,7 @@ package com.formation.jour7.app;
 import java.util.List;
 import java.util.Scanner;
 
+import com.formation.jour11.EtudiantIntrouveException;
 import com.formation.jour7.model.Etudiant;
 import com.formation.jour7.service.GestionEtudiantService;
 
@@ -79,8 +80,11 @@ public class Application {
 				case 2 -> {
 					System.out.println("Saisissez l'id de l'étudiant à supprimer : ");
 					int id = scanner.nextInt();
-					gestionEtudiantService.supprimerEtudiant(id);
-	
+					try {
+						gestionEtudiantService.supprimerEtudiant(id);
+					} catch (EtudiantIntrouveException e){
+						System.out.println(e.getMessage());
+					}
 				}
 				case 3 -> {
 					System.out.println("Saisissez le nom de l'étudiant à rechercher : ");

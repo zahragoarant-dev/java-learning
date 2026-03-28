@@ -3,6 +3,7 @@ package com.formation.jour7.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.formation.jour11.EtudiantIntrouveException;
 import com.formation.jour7.model.Etudiant;
 
 public class GestionEtudiantService {
@@ -29,7 +30,7 @@ public class GestionEtudiantService {
 		}
 
 		if (etudiants.size() == nbrEtudiants)
-			System.out.println("Etudiant introvable !");
+			throw new EtudiantIntrouveException("Etudiant introvable !");
 	}
 
 	// rechercherParNom(String nom) — retourner List<Etudiant> dont le nom contient
@@ -50,7 +51,7 @@ public class GestionEtudiantService {
 			if (etudiant.getId() == id)
 				return etudiant;
 		}
-		return null;
+		throw new EtudiantIntrouveException("Etudiant Introvable");
 	}
 
 	// afficherTous() — afficher tous les étudiants avec toString()
