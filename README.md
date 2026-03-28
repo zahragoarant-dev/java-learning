@@ -20,7 +20,8 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 8 | Collections : List & Set | ✅ |
 | Jour 9 | Collections : Map & Queue | ✅ |
 | Jour 10 | Generics & Types Paramétrés | ✅ |
-| Jour 11 | Exceptions | 🔜 |
+| Jour 11 | Exceptions : try-catch, personnalisées, try-with-resources | ✅ |
+| Jour 12 | Lambdas & Interfaces Fonctionnelles | 🔜 |
 
 ## 📦 Structure
 ```
@@ -32,11 +33,23 @@ src/
     ├── jour4/  → Etudiant, TestEtudiant
     ├── jour5/  → Personne, Etudiant, Professeur, TestHeritage
     ├── jour6/  → Forme, Dessinable, Cercle, Rectangle, Triangle
-    ├── jour7/  → model/Etudiant, service/GestionEtudiantService,
+    ├── jour7/  → model/Etudiant,
+    │             service/GestionEtudiantService,
     │             app/Application
     ├── jour8/  → ListeTaches, ExerciceSet, PerformanceList
     ├── jour9/  → Annuaire, FrequenceMots, FileImpression
-    └── jour10/ → Boite, Stack, Repository, EtudiantRepository,
-                  UtilsGenerics, TestBoite, TestStack,
-                  TestRepository, TestUtils
+    ├── jour10/ → Boite, Stack, Repository, EtudiantRepository,
+    │             UtilsGenerics, TestBoite, TestStack,
+    │             TestRepository, TestUtils
+    └── jour11/ → NoteInvalideException,
+                  EtudiantIntrouveException,
+                  ExerciceTryCatch,
+                  TestExceptionsMetier,
+                  ExerciceTryResources
 ```
+
+## 🚀 Mini-Projets
+| Projet | Description |
+|--------|-------------|
+| Calculatrice CLI | Menu interactif, 4 opérations, historique 5 calculs |
+| Gestion Étudiants | Architecture model/service/app, CRUD, statistiques, exceptions métier |
