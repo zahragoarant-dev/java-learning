@@ -23,7 +23,8 @@ Projet de formation Java 17 progressif vers Spring Boot.
 | Jour 11 | Exceptions : try-catch, personnalisées, try-with-resources | ✅ |
 | Jour 12 | Lambdas & Interfaces Fonctionnelles | ✅ |
 | Jour 13 | Stream API : filter, map, sorted, collect, Optional | ✅ |
-| Jour 14 | Stream Avancé : Collectors, groupingBy, Optional | 🔜 |
+| Jour 14 | Stream Avancé : Collectors, groupingBy, Optional | ✅ |
+| Jour 15 | I/O : Fichiers & java.nio.file | 🔜 |
 
 ## 🚀 Mini-Projets
 | Projet | Jour | Description |
@@ -57,5 +58,8 @@ src/
     │             ExerciceTryResources
     ├── jour12/ → ExerciceLambda,
     │             ExerciceCollectionsLambda
-    └── jour13/ → ExerciceStream
+    ├── jour13/ → ExerciceStream
+    └── jour14/ → ExerciceCollectors,
+                  ExerciceOptional,
+                  PipelineComplet
 ```
